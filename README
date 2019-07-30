@@ -1,0 +1,30 @@
+DyNeMoC is statistical model checker for agent based systems on graphs. 
+
+System Requirements.
+JDK 1.8 or plus
+Python 2.7 with igraph, and numpy libraries
+
+
+Steps to run the Simulation:
+
+1.Run Graph_Generation/graph_generation.py
+  cd Graph_Generation
+  python graph_generation.py
+
+2. Run Generate_Input/GenInput.java
+   cd Generate_Input
+   javac GenInput.java
+   java GenInput
+
+3. Run DyNeMoC/testDyNeMoC.java 
+   cd DyNeMoC
+   javac testDyNeMoC.java
+   /usr/bin/time -v java testDyNeMoC
+
+
+Important: To run the simulation for different agents, first you have to set the num_people parameter in Config/config.properties, and Graph_Generation/Hstratconfig.py then follow the above 3 steps.
+
+Note: To check the simulation results in different program execution strategies, you have to run strategy.sh. You can see the strategy/sample_ouput.png for sample output of these stragies.
+
+4. Run strategy.sh 
+   ./strategy.sh 

@@ -1,0 +1,2 @@
+This folder contains output of the simulation.
+For each discrete time unit how many agents are presented at each node, and how many agents are infected at each instance.

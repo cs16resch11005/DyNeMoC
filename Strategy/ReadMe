@@ -1,0 +1,5 @@
+This folder contains the code to execute the program or DyNeMoC in four different strategies. i.e., Parallel-Node Based Allocation, Parallel-Partiton Based Allocation, Serial, and Sampling mode.
+
+Sample_output.png is sample output of these strategies.
+
+To execute these strategies you have to run strategy.sh
